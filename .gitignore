@@ -3,3 +3,6 @@ target/
 *.iml
 .vscode/
 *.log
+/semgrep-results.json
+/AGENTS.md
+/semgrep-results.sarif
