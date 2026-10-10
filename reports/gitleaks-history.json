@@ -1,0 +1,23 @@
+[
+ {
+  "RuleID": "generic-api-key",
+  "Description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations.",
+  "StartLine": 73,
+  "EndLine": 73,
+  "StartColumn": 420,
+  "EndColumn": 473,
+  "Match": "NGINX_GPGKEY=REDACTED;",
+  "Secret": "REDACTED",
+  "File": "reports/trivy-before.json",
+  "SymlinkFile": "",
+  "Commit": "d52103a705af2b9109417de33baf773a0c0406bc",
+  "Link": "https://github.com/Koderom/spring-boot-webapi-secure/blob/d52103a705af2b9109417de33baf773a0c0406bc/reports/trivy-before.json#L73",
+  "Entropy": 3.6341836,
+  "Author": "Mirko Ochoa",
+  "Email": "mirkoochoa1514@gmail.com",
+  "Date": "2026-10-10T02:18:33Z",
+  "Message": "lab: escaneo de imagenes con trivy",
+  "Tags": [],
+  "Fingerprint": "d52103a705af2b9109417de33baf773a0c0406bc:reports/trivy-before.json:generic-api-key:73"
+ }
+]
